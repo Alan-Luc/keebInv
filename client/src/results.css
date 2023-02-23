@@ -1,0 +1,42 @@
+.results-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10vh auto;
+    gap: 30px;
+    justify-content: center;
+}
+.result-module{
+    width:200px;
+    font-family: 'Inter', sans-serif;
+}
+.result-img{
+    height:200px;
+    width:200px;
+    border-radius: 8px;
+    margin: 0 0 5px 0;
+}
+.result-info{
+    display: grid;
+    grid-gap:5px;
+    grid-template-columns: 3fr 1fr;
+}
+.result-title{
+    color:aliceblue;
+    font-weight: 600;
+    font-size:1rem;
+    margin:0;
+}
+.result-seller{
+    color:#F4C29C;
+    font-size:0.8rem;
+    font-weight: 400;
+    margin:0;
+}
+.result-price{
+    color:aliceblue;
+    font-weight: 600;
+    font-size: 1.3rem;
+    text-align: right;
+    grid-row: span 2;
+    margin:0;
+}
